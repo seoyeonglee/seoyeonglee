@@ -13,6 +13,10 @@ The project deliberately targets two areas I have **not previously owned as a pr
 - 52-card uniqueness/preservation tests
 - production architecture notes for Redis + PostgreSQL
 - React observer client for live WebSocket table state
+- PixiJS Canvas/WebGL table rendering prototype
+- rule-based poker practice bot using hand-strength / position / pot-odds inputs
+- Redis-backed reconnect-session store prototype
+- k6 WebSocket load-test harness
 - explainable pair-level collusion-risk prototype with tests
 - clear separation between game engine and fraud/anti-abuse controls
 
@@ -59,12 +63,12 @@ Example messages:
 ## Next implementation steps
 
 1. legal-action validation and betting-round closure
-2. hand evaluator
-3. reconnect/session recovery with Redis
+2. production-grade hand evaluator
+3. integrate Redis session recovery into the WebSocket server lifecycle
 4. append-only hand-history persistence implementation
-5. load test for table fan-out and reconnect storms
+5. execute and publish measured load-test results across multiple concurrency levels
 6. multi-account/device correlation expansion
-7. hand-level behavioral features for collusion analysis
+7. extend the practice bot toward Monte Carlo/CFR experimentation
 8. authenticated admin investigation workflow
 
 ## Important scope note
