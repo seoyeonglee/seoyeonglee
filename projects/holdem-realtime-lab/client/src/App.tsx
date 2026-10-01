@@ -1,3 +1,4 @@
+import { PixiTable } from "./PixiTable";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 type TableState = {
@@ -84,6 +85,11 @@ export function App() {
           <span className="label">action seq</span>
           <strong>{state.actionSeq}</strong>
         </article>
+      </section>
+
+      <section className="panel">
+        <span className="label">PixiJS Canvas/WebGL table prototype</span>
+        <PixiTable />
       </section>
 
       <section className="actions">
