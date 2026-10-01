@@ -6,6 +6,18 @@ This GitHub is intentionally project-focused. Each public repository is designed
 
 ## Featured projects
 
+### [Hold'em Real-Time Server Lab](https://github.com/seoyeonglee/seoyeonglee/tree/main/projects/holdem-realtime-lab)
+
+A focused TypeScript/Node.js portfolio lab for browser-based real-time Hold'em: WebSocket server-authoritative state, an explicit hand state machine, CSPRNG-backed Fisher-Yates shuffling, tests, and production architecture notes for Redis/PostgreSQL and anti-abuse controls.
+
+**TypeScript · Node.js · WebSocket · CSPRNG · Real-Time Game Architecture · Redis/PostgreSQL Design**
+
+> This is explicitly presented as a portfolio/learning prototype, not as prior production Hold'em experience or RNG certification.
+
+---
+
+
+
 ### [Privacy Access Monitor](https://github.com/seoyeonglee/privacy-access-monitor)
 
 Detects unusual access to sensitive customer data using behavioral baselines, rule-based controls, and transparent risk scoring.
