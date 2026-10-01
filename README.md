@@ -6,6 +6,13 @@ My development background includes **JavaScript / TypeScript / Python / Node.js*
 
 This GitHub is intentionally project-focused. Each public repository is designed to be understandable on its own, reproducible, and safe to share without employer data or proprietary logic.
 
+## Development background
+
+- **Game development:** JavaScript / Python game development at Redbrick
+- **Web / full-stack:** Node.js, React, Vue.js, PostgreSQL, MySQL; Java and Bash background
+- **Recommendation systems:** SnackFit began as an undergraduate capstone and continued as a freelance implementation using monthly consumption and product/user features to update recommendation rankings and inform assortment/inventory decisions
+- **Later specialization:** fraud/abuse monitoring, privacy/security, blockchain investigation, digital forensics, financial controls, and automation
+
 ## Featured projects
 
 ### [Hold'em Real-Time Server Lab](https://github.com/seoyeonglee/seoyeonglee/tree/main/projects/holdem-realtime-lab)
