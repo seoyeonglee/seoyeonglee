@@ -8,6 +8,7 @@
     "test": "tsx --test tests/*.test.ts"
   },
   "dependencies": {
+    "ioredis": "^5.4.1",
     "ws": "^8.18.0"
   },
   "devDependencies": {
