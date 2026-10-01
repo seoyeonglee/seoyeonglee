@@ -17,7 +17,7 @@ This GitHub is intentionally project-focused. Each public repository is designed
 
 ### [Hold'em Real-Time Server Lab](https://github.com/seoyeonglee/seoyeonglee/tree/main/projects/holdem-realtime-lab)
 
-A focused TypeScript/Node.js portfolio lab for browser-based real-time Hold'em: WebSocket server-authoritative state, an explicit hand state machine, CSPRNG-backed Fisher-Yates shuffling, tests, and production architecture notes for Redis/PostgreSQL and anti-abuse controls.
+A focused TypeScript/Node.js portfolio lab for browser-based real-time Hold'em: WebSocket server-authoritative state, an explicit hand state machine, CSPRNG-backed Fisher-Yates shuffling, side-pot logic, a React observer client, explainable collusion-risk signals, tests, and production architecture notes for Redis/PostgreSQL.
 
 **TypeScript · Node.js · WebSocket · CSPRNG · Real-Time Game Architecture · Redis/PostgreSQL Design**
 
