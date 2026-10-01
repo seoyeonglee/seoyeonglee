@@ -1,6 +1,6 @@
 import { createServer } from "node:http";
 import { randomUUID } from "node:crypto";
-import { WebSocketServer } from "ws";
+import { WebSocket, WebSocketServer } from "ws";
 import { createDeck, secureShuffle } from "./shuffle.js";
 import { TableState, advanceStreet } from "./stateMachine.js";
 
@@ -18,7 +18,7 @@ let state: TableState = {
 function broadcast(payload: unknown) {
   const body = JSON.stringify(payload);
   for (const client of wss.clients) {
-    if (client.readyState === client.OPEN) client.send(body);
+    if (client.readyState === WebSocket.OPEN) client.send(body);
   }
 }
 
