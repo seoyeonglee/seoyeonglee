@@ -1,0 +1,20 @@
+{
+  "name": "realtime-game-platform-lab",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Real-time multiplayer game platform prototype with authoritative state, CSPRNG deck randomization, Redis reconnect sessions, WebSocket transport, and game-integrity controls.",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "ioredis": "^5.4.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
