@@ -1,95 +1,115 @@
-# Seoyoung Lee — Project Portfolio
+# Seoyoung Lee — Full-Stack & Applied AI Engineering Portfolio
 
-I build practical projects across **software engineering, game systems, security, privacy, fraud analytics, audit automation, blockchain investigation, and explainable risk controls**.
+I build **full-stack applications, backend/data platforms, automation systems, and applied AI tooling** with a strong focus on reliability, observability, and real operational problems.
 
-My development background includes **JavaScript / TypeScript / Python / Node.js**, **React / Vue.js**, **PostgreSQL / MySQL**, earlier professional game development, and programming instruction. I later specialized in security, fraud/risk, forensics, financial controls, and automation — so many of the projects here sit at the intersection of engineering and risk.
+My primary languages are **JavaScript / TypeScript / Python**. I also have hands-on experience with **Node.js, React, Vue.js, FastAPI, PostgreSQL, MySQL, Redis, Docker, SQL, and GitHub Actions**.
 
-This GitHub is intentionally project-focused. Each public repository is designed to be understandable on its own, reproducible, and safe to share without employer data or proprietary logic.
+My background spans software development, fintech, security, digital forensics, fraud/risk analytics, and automation. That domain depth is useful because I do not approach software as isolated code — I am used to translating ambiguous business and operational problems into working systems.
 
-## Development background
+## Featured engineering projects
 
-- **Game development:** JavaScript / Python game development at Redbrick
-- **Web / full-stack:** Node.js, React, Vue.js, PostgreSQL, MySQL; Java and Bash background
-- **Recommendation systems:** SnackFit began as an undergraduate capstone and continued as a freelance implementation using monthly consumption and product/user features to update recommendation rankings and inform assortment/inventory decisions
-- **Later specialization:** fraud/abuse monitoring, privacy/security, blockchain investigation, digital forensics, financial controls, and automation
+### [High-Throughput Event Platform](https://github.com/seoyeonglee/high-throughput-event-platform)
 
-## Featured projects
+An end-to-end full-stack event platform with a **React/TypeScript operations console**, **FastAPI API**, **Redis Streams asynchronous processing**, **PostgreSQL persistence**, Docker Compose, Prometheus metrics, retries/DLQ, idempotency, and CI.
 
-### [Hold'em Real-Time Server Lab](https://github.com/seoyeonglee/seoyeonglee/tree/main/projects/holdem-realtime-lab)
+**React · TypeScript · FastAPI · PostgreSQL · Redis Streams · Docker · Prometheus**
 
-A focused TypeScript/Node.js portfolio lab for browser-based real-time Hold'em: WebSocket server-authoritative state, an explicit hand state machine, CSPRNG-backed Fisher-Yates shuffling, side-pot logic, a React observer client, explainable collusion-risk signals, tests, and production architecture notes for Redis/PostgreSQL.
-
-**TypeScript · Node.js · WebSocket · CSPRNG · Real-Time Game Architecture · Redis/PostgreSQL Design**
-
-> This is explicitly presented as a portfolio/learning prototype, not as prior production Hold'em experience or RNG certification.
+What it demonstrates:
+- frontend ↔ REST API integration
+- async event processing
+- durable data modeling
+- user/event analytics
+- reliability patterns beyond CRUD
+- Dockerized local full-stack execution
+- backend tests + frontend production build in GitHub Actions
 
 ---
 
+### [AI Infra Observability](https://github.com/seoyeonglee/ai-infra-observability)
 
+Production-minded monitoring stack for GPU-backed AI services.
+
+**Python · FastAPI · Prometheus · VictoriaMetrics · Grafana · EFK · Kubernetes · NVIDIA DCGM**
+
+Demonstrates service/GPU telemetry, structured logging, alert routing, incident classification, Kubernetes manifests, Docker Compose, and operational runbook design.
+
+---
+
+### [Hold'em Real-Time Server Lab](https://github.com/seoyeonglee/seoyeonglee/tree/main/projects/holdem-realtime-lab)
+
+Browser-based real-time Hold'em architecture prototype using server-authoritative state and event-driven game logic.
+
+**TypeScript · Node.js · WebSocket · React · State Machine · CSPRNG · Redis/PostgreSQL Design**
+
+---
 
 ### [Privacy Access Monitor](https://github.com/seoyeonglee/privacy-access-monitor)
 
-Detects unusual access to sensitive customer data using behavioral baselines, rule-based controls, and transparent risk scoring.
+Explainable access-monitoring pipeline based on behavioral baselines and rule-based risk scoring.
 
-**Python · Pandas · Privacy Monitoring · Anomaly Detection · Risk Scoring**
+**Python · Pandas · Detection Rules · Behavioral Analytics · Tests/CI**
 
 ---
 
 ### [Fraud Risk Engine](https://github.com/seoyeonglee/fraud-risk-engine)
 
-Combines customer baselines, transaction-pattern rules, velocity detection, and explainable fraud-risk scoring on synthetic financial transactions.
+Synthetic fraud-risk engine combining customer baselines, transaction rules, velocity detection, and transparent scoring.
 
-**Python · Pandas · Fraud Analytics · Behavioral Baselines · Rule Engine**
+**Python · Pandas · Fraud Analytics · Rule Engine · Tests/CI**
 
 ---
 
 ### [Crypto Transaction Tracer](https://github.com/seoyeonglee/crypto-transaction-tracer)
 
-Models synthetic blockchain transactions as a directed graph, traces transaction flows by hop distance, and identifies structural and proximity-based risk patterns.
+Graph-based transaction tracing with hop analysis and explainable exposure signals.
 
-**Python · Pandas · NetworkX · Blockchain Analytics · Graph Investigation**
+**Python · Pandas · NetworkX · Graph Analysis · Blockchain Analytics**
 
 ---
 
 ### [Audit Evidence Agent](https://github.com/seoyeonglee/audit-evidence-agent)
 
-Maps synthetic audit evidence to controls, checks period and content coverage, highlights exception language, and generates a transparent review-ready assessment.
+Deterministic evidence-review pipeline that maps evidence to controls and flags coverage gaps and exceptions.
 
-**Python · Pandas · Audit Analytics · Evidence Review · Deterministic Agent**
-
-### [Web Portfolio](https://seoyounglee-portfolio.vercel.app/)
-
-A bilingual, responsive portfolio that brings together my software-development background, public repositories, security/fraud work, research, and technical career history.
-
-**HTML · CSS · JavaScript · Responsive UI · EN/KR · GitHub-backed**
-
-Source: [seoyounglee_portfolio](https://github.com/seoyeonglee/seoyounglee_portfolio)
+**Python · Pandas · Control Testing · Evidence Automation**
 
 ---
 
-## What these projects demonstrate
+## Development background
 
-- real-time / event-driven architecture prototyping
-- JavaScript / TypeScript / Node.js engineering
-- web and game-development foundations
-- privacy and security monitoring
-- fraud / AML-style risk analytics
-- audit and control automation
-- blockchain transaction investigation
-- graph-based analysis
-- synthetic-data engineering
-- transparent, testable risk scoring
-- reproducible Python pipelines
-- automated tests with GitHub Actions
+- **JavaScript / TypeScript / Python:** primary development languages
+- **Frontend:** React, Vue.js, HTML/CSS, browser/DOM programming, responsive UI
+- **Backend / API:** Node.js, FastAPI, REST APIs, asynchronous processing
+- **Data:** PostgreSQL, MySQL, Redis, SQL, Pandas, NetworkX
+- **Infrastructure:** Docker, Docker Compose, Kubernetes foundations, Prometheus/Grafana
+- **Quality:** pytest, GitHub Actions, reproducible local environments, synthetic test data
+- **Teaching:** JavaScript application development and Python/data-analysis instruction through SSAFY/freelance teaching
 
-## Principles
+## Selected applied engineering experience
 
-- **Public-safe:** synthetic or openly available data only
-- **Reproducible:** runnable code, sample inputs, documented outputs, and tests
-- **Explainable:** visible assumptions, limitations, and decision logic
-- **Practical:** built around concrete monitoring, investigation, or control problems
-- **No inflated claims:** synthetic evaluation is clearly separated from real-world performance
+- Built Python automation, crawling, data-processing, and AI-agent workflows in financial/forensic environments
+- Developed a Python-based audio manipulation analysis workflow plus web-crawling and speech-to-text tooling
+- Designed data-driven monitoring and detection logic with engineering/data teams
+- Built and operated client-facing web/service workflows in a legal-tech environment
+- Worked across product, engineering, data, security, compliance, and legal stakeholders to turn requirements into operational systems
+
+## Engineering approach
+
+I prefer projects that show more than isolated algorithms:
+
+- a usable UI or API
+- clear architecture and data flow
+- reproducible setup
+- tests and CI
+- observable behavior
+- explicit failure handling
+- realistic production trade-offs
+
+I use AI coding tools as an accelerator for implementation and review, while keeping architecture, debugging, validation, and final technical decisions human-owned.
 
 ---
 
-[Portfolio website](https://seoyounglee-portfolio.vercel.app/)
+### Links
+
+- [Web Portfolio](https://seoyounglee-portfolio.vercel.app/)
+- [GitHub](https://github.com/seoyeonglee)
