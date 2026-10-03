@@ -68,13 +68,13 @@ Docker Compose exercises simulated inference telemetry locally. Kubernetes manif
 
 ---
 
-### [Hold'em Real-Time Server Lab](https://github.com/seoyeonglee/seoyeonglee/tree/main/projects/holdem-realtime-lab)
+### [Real-Time Multiplayer Game Platform Lab](https://github.com/seoyeonglee/seoyeonglee/tree/main/projects/realtime-game-platform-lab)
 
-A browser-based real-time Hold'em prototype with server-authoritative state, an explicit street state machine, CSPRNG-backed shuffling, and React/PixiJS rendering.
+A domain-neutral real-time multiplayer platform prototype focused on reusable game-system primitives: server-authoritative state, ordered WebSocket events, CSPRNG-backed deck randomization, layered settlement logic, React/PixiJS rendering, Redis reconnect sessions, and explainable integrity-risk controls.
 
-**TypeScript · Node.js · WebSocket · React · PixiJS · CSPRNG**
+**TypeScript · Node.js · WebSocket · React · PixiJS · Redis · PostgreSQL · CSPRNG**
 
-A learning lab with Redis/PostgreSQL architecture notes, not a production-certified poker engine.
+A portfolio lab for browser-based table and turn-based game architecture, intentionally separated from any single commercial game.
 
 ---
 
