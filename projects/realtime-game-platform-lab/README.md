@@ -1,4 +1,4 @@
-# Real-Time Multiplayer Game Platform Lab
+# Real-Time Multiplayer Systems Lab
 
 A TypeScript/Node.js engineering lab for reusable real-time multiplayer platform components.
 
