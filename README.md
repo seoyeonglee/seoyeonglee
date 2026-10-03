@@ -68,13 +68,13 @@ Docker Compose exercises simulated inference telemetry locally. Kubernetes manif
 
 ---
 
-### [Real-Time Multiplayer Game Platform Lab](https://github.com/seoyeonglee/seoyeonglee/tree/main/projects/realtime-game-platform-lab)
+### [Real-Time Multiplayer Systems Lab](https://github.com/seoyeonglee/seoyeonglee/tree/main/projects/realtime-game-platform-lab)
 
-A domain-neutral real-time multiplayer platform prototype focused on reusable game-system primitives: server-authoritative state, ordered WebSocket events, CSPRNG-backed deck randomization, layered settlement logic, React/PixiJS rendering, Redis reconnect sessions, and explainable integrity-risk controls.
+A reusable real-time multiplayer systems prototype focused on server-authoritative state, ordered WebSocket events, fairness-sensitive randomization, layered settlement logic, React/PixiJS rendering, Redis reconnect sessions, PostgreSQL event history, and explainable integrity-risk controls.
 
 **TypeScript · Node.js · WebSocket · React · PixiJS · Redis · PostgreSQL · CSPRNG**
 
-A portfolio lab for browser-based table and turn-based game architecture, intentionally separated from any single commercial game.
+A portfolio lab exploring the reusable architecture behind browser-based table and turn-based multiplayer systems.
 
 ---
 
